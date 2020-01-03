@@ -9,7 +9,7 @@ import guru.springframework.spring5webapp.repositories.AuthorRepository;
 @Controller
 public class AuthorController
 {
-	AuthorRepository authorRepository;
+	private AuthorRepository authorRepository;
 
 	public AuthorController(AuthorRepository authorRepository)
 	{
